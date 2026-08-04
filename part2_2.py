@@ -18,3 +18,7 @@ print(train.describe(include='all'))
 print(test.describe(include='all'))
 print(train.describe(include='O'))
 print(test.describe(include='O'))
+
+print('결측치')
+print(train.isnull().sum())
+print(test.isnull().sum())
