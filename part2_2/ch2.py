@@ -1,4 +1,6 @@
 '''
+P.224 
+
 미국의 1994년 인구 조사
 - 나이, 직업, 학력 등으로 연소득이 5만 달러를 초과 (income 컬럼) 예측 --> 이진분류
 - income --> <= 50K / > 50K
@@ -13,8 +15,8 @@ pd.set_option('display.max_columns', None) # 모든 컬럼
 pd.set_option('display.width', None)        # 줄바꿈 없이 넓게
 
 # 데어터 불러오기
-train = pd.read_csv('data_csv/train.csv')
-test = pd.read_csv('data_csv/test.csv')
+train = pd.read_csv('train.csv')
+test = pd.read_csv('test.csv')
 
 # print(train.head())
 # print(test.head())
