@@ -1,9 +1,9 @@
 '''
-ch8.py
+ch8_1.py
 
 P.332
 
-빅분기 실기 ch4
+항공권 가격 예측
 
 '''
 # 1. 라이브러리
@@ -89,6 +89,6 @@ result = root_mean_squared_error(y_val, y_pred)
 
 pred = rf.predict(test)
 submit = pd.DataFrame({'pred':pred})
-submit.to_csv('result.csv')
+submit.to_csv('result8_1.csv')
 
-print(pd.read_csv('result.csv').head())
+print(pd.read_csv('result8_1.csv').head())
